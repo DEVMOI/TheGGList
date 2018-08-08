@@ -1,6 +1,10 @@
-{"nodegg":
-	{"streamers":[
-        {
+{
+	"name":"The GG List",
+	"author":"Node >< GG",
+	"description":"A Lite API created to organize the list of streamers featured on the community site.",
+	"version":"0.1.1",
+	"streamers":[
+		{
 			"username": "TheMoikaTimes",
 			"programmer": "yes"
 		},
@@ -23,6 +27,10 @@
 		{
 			"username": "densifylive",
 			"programmer": "no"
+		},
+		{
+			"username": "awoonation",
+			"programmer": "yes"
 		}
-	]}
+	]
 }
