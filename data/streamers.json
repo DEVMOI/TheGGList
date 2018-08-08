@@ -1,10 +1,28 @@
 {"nodegg":
-    {"streamers":
-        {"username": "TheMoikaTimes"},
-		{"username": "judgettv"},
-		{"username": "mbektiv"},
-		{"username": "itmejaydee"},
-		{"username": "hempthusiast"},
-		{"username": "densifylive"}
-    }
+	{"streamers":[
+        {
+			"username": "TheMoikaTimes",
+			"programmer": "yes"
+		},
+		{
+			"username": "judgettv",
+			"programmer": "no"
+		},
+		{
+			"username": "mbektiv",
+			"programmer": "yes"
+		},
+		{
+			"username": "itmejaydee",
+			"programmer": "no"
+		},
+		{
+			"username": "hempthusiast",
+			"programmer": "no"
+		},
+		{
+			"username": "densifylive",
+			"programmer": "no"
+		}
+	]}
 }
