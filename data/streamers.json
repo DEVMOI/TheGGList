@@ -7,38 +7,43 @@
 	"streamers": [
 		{
 			"username": "TheMoikaTimes",
-			"id":null,
+			"id": null,
 			"programmer": "yes"
 		},
 		{
 			"username": "judgettv",
-			"id":null,
+			"id": null,
 			"programmer": "no"
 		},
 		{
 			"username": "mbektic",
-			"id":null,
+			"id": null,
 			"programmer": "yes"
 		},
 		{
 			"username": "itmejaydee",
-			"id":null,
+			"id": null,
 			"programmer": "no"
 		},
 		{
 			"username": "hempthusiast",
-			"id":null,
+			"id": null,
 			"programmer": "no"
 		},
 		{
 			"username": "densifylive",
-			"id":null,
+			"id": null,
 			"programmer": "no"
 		},
 		{
 			"username": "awoonation",
-			"id":null,
+			"id": null,
 			"programmer": "yes"
+		},
+		{
+			"username": "disciple_kr33p3r03",
+			"id": null,
+			"programmer":"no"
 		}
 	]
 }
