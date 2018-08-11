@@ -1,26 +1,32 @@
 <template>
-  <div class="home">
-    <InputC msg="The GG List" @twitch-user="twitchUserEmit"/>
+  <div id="home">
+    <div>
+      <InputC msg="The GG List" @twitch-user="twitchUserEmit"/>
+    </div>
+    <div class="container">
+      <Stream :stream="streamName"/>
+    </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import InputC from "@/components/Input.vue";
-
+import Stream from "@/components/stream.vue"
 export default {
   name: "home",
   components: {
-    InputC
+    InputC,
+    Stream
   },
   data (){
     return {
-
+      streamName: null
     }
   },
   methods : {
     twitchUserEmit (event) {
-      console.log("r2"+" "+event)
+      this.streamName = event;
     }
   }
 };

@@ -17,13 +17,12 @@ export default {
   },
   data (){
     return {
-      user: null
+      user: null,
     }
   },
   methods: {
     getNewStream () {
-      console.log(this.user)
-      this.$emit("twitch-user", this.user)
+      this.$emit("twitch-user", this.user.toString())
       this.user = ""
     }
   }
