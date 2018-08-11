@@ -1,18 +1,27 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <InputC msg="The GG List" @twitch-user="twitchUserEmit"/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import InputC from "@/components/Input.vue";
 
 export default {
-  name: 'home',
+  name: "home",
   components: {
-    HelloWorld
+    InputC
+  },
+  data (){
+    return {
+
+    }
+  },
+  methods : {
+    twitchUserEmit (event) {
+      console.log("r2"+" "+event)
+    }
   }
-}
+};
 </script>
