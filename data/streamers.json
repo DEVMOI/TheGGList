@@ -1,9 +1,9 @@
 {
 	"name": "The GG List",
-	"author": "Node >< GG",
+	"author": "nodegg",
 	"description": "A Lite API created to organize the list of streamers featured on the community site.",
-	"repo": "https://github.com/NodeGG/TheGGList",
-	"version": "0.1.1",
+	"repo": "http://www.thegglist.netlify.com",
+	"version": "0.2.0",
 	"streamers": [
 		{
 			"username": "TheMoikaTimes",
