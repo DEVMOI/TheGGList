@@ -5,6 +5,6 @@
 
 ### How to join
 
-- Visit (The GG List)[http:www.thegglist.netlify.com/#]
+- Visit (The GG List)[https://thegglist.netlify.com/#/]
 - Search Username
 - Create Pull Request Providing Display Name and ID in json form.
