@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
     <title>TheGGList</title>
   </head>
   <body>
@@ -13,5 +16,17 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <amp-auto-ads type="adsense"
+              data-ad-client="ca-pub-3925429900943771">
+    </amp-auto-ads>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-103787251-4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-103787251-4');
+    </script>
   </body>
 </html>
