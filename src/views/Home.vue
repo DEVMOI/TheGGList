@@ -6,7 +6,7 @@
       <Stream :stream="streamName"/>
       <footer class="mt-5 pt-5">
         <a href="https://www.nodegg.com">Our site.</a>
-        <p>If you would like to join the list please make a <a href="https://github.com/NodeGG/TheGGList" target="_blank">Pull Request.</a></p>
+        <p>If you would like to join the list please make a <a href="https://www.github.com/NodeGG/TheGGList" target="_blank">Pull Request.</a></p>
       </footer>
   </div>
 </template>
